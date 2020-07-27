@@ -10,6 +10,7 @@ public class DockerController {
 
     @GetMapping("/getdocker")
     public String getDockerText(){
+        System.out.println("Controller hit");
         return "Welcome to Docker Container";
     }
 
